@@ -1,0 +1,32 @@
+[0m01:00:27.226106 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f04b50c0160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f04b4068910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f04b40688b0>]}
+
+
+============================== 01:00:27.237183 | a420ecf5-adae-4cbd-a860-3c41db7df7cb ==============================
+[0m01:00:27.237183 [info ] [MainThread]: Running with dbt=1.9.1
+[0m01:00:27.241008 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/skynet/.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt init dbt-mappers', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m01:00:27.263510 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse logging event dictionary. Failed to parse dir field: expected string or bytes-like object.. Dictionary: {'dir': PosixPath('/home/skynet/.dbt')}
+[0m01:00:27.264772 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m01:00:47.678080 [debug] [MainThread]: Starter project path: /home/skynet/projects/map_compare/lib/python3.10/site-packages/dbt/include/starter_project
+[0m01:00:47.689126 [info ] [MainThread]: 
+Your new dbt project "dbt_mappers" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m01:00:47.691042 [info ] [MainThread]: Setting up your profile.
+[0m01:22:52.516719 [info ] [MainThread]: Profile dbt_mappers written to /home/skynet/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m01:22:52.532216 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 1345.4645, "process_in_blocks": "3592", "process_kernel_time": 0.240157, "process_mem_max_rss": "103292", "process_out_blocks": "80", "process_user_time": 3.646386}
+[0m01:22:52.536393 [debug] [MainThread]: Command `dbt init` succeeded at 01:22:52.535577 after 1345.47 seconds
+[0m01:22:52.543895 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f04b50c0160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f04b406b1c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f04b40688e0>]}
+[0m01:22:52.549150 [debug] [MainThread]: Flushing usage events
+[0m01:22:53.645892 [debug] [MainThread]: An error was encountered while trying to flush usage events
